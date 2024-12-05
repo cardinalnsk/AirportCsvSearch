@@ -6,7 +6,7 @@ public class ArgumentsModel {
     private final String inputFile;
     private final String outputFile;
     private final int columnId;
-    private boolean debug;
+    private final boolean debug;
 
     private ArgumentsModel(String dataFile, String inputFile, String outputFile, int columnId, boolean debug) {
         this.dataFile = dataFile;
